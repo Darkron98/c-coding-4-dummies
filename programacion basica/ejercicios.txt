@@ -1,0 +1,30 @@
+1) Diseñe un programa en C++ que le permita al usuario hallar el área o el 
+perímetro de un cuadrado ingresando su base y su altura y que muestre el 
+resultado por consola.
+    Formulas:
+    área: base*altura
+    perímetro: 2*base + 2*altura
+
+2) el programa de calculadora diseñado en clase presenta un 
+error en la división con respecto a la división entre 0 ya que 
+la división entre 0 es indeterminada de tal forma que A/0 es 
+indeterminado, diseñe una solución que retorne por consola 
+"math-error can't divide by zero" si el numero B ingresado es 0.
+
+3) para saber si un número es divisible entre otro numero, el 
+módulo o residuo entre ambos números debe ser 0. Ejemplo: si 
+el modulo de A/B es igual que 0 entonces A es divisible entre B. 
+investigar (anexo) sobre la operación de modulo en c++ y realizar 
+un programa que dados 2 números A y B permita saber si la suma entre 
+ambos es par o impar (tenga en cuenta que para que un numero sea par 
+debe ser divisible entre 2).
+anexo:
+https://primerospasosparaprogramar.wordpress.com/2010/11/22/el-operador-modulo-en-c/
+
+4) Diseñe un programa en c++ que permita al usuario ingresar un año 
+arbitrario y muestre por pantalla si fue, es o será un año bisiesto, 
+tenga en cuenta que para que un año sea bisiesto se tienen que cumplir 
+TODAS estas condiciones:
+    a. Si el año es divisible entre 4
+    b. Si el año es divisible entre 100
+    c. Si el año es divisible entre 400
