@@ -1,0 +1,2 @@
+diseñar un programa en c++ que le pida al usuario ingresar 10 numeros por consola
+y despues se guarden en su respectiva posicion en un arreglo de tamaño 10.
